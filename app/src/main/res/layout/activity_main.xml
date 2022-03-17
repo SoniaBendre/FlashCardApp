@@ -6,8 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <!-- always append type of view after id -->
+    <!-- @+id is to create a new id -->
+    <!-- @id is for old id -->
     <TextView
-        android:id="@+id/flashcard_question"
+        android:id="@+id/flashcard_question_textview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
@@ -15,12 +19,20 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/flashcard_answer"
+        android:id="@+id/flashcard_answer_textview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
         android:text="Barack Obama"
-        android:visibility="invisible"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/add_button"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/add_button" />
 
 </RelativeLayout>
