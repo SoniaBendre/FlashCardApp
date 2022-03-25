@@ -14,6 +14,7 @@ public class AddCardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_card);
 
+
         findViewById(R.id.cancel_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,6 +25,7 @@ public class AddCardActivity extends AppCompatActivity {
         findViewById(R.id.save_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                System.out.println("here");
                 Intent data = new Intent(); // create a new Intent, this is where we will put our data
                 data.putExtra("question", ((EditText) findViewById(R.id.question)).getText().toString()); // puts one string into the Intent, with the key as 'string1'
                 data.putExtra("answer", ((EditText) findViewById(R.id.answer)).getText().toString()); // puts another string into the Intent, with the key as 'string2

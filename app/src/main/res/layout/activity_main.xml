@@ -11,11 +11,18 @@
     <!-- @+id is to create a new id -->
     <!-- @id is for old id -->
     <TextView
+        android:id="@+id/question_side_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <TextView
         android:id="@+id/flashcard_question_textview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Who is the 44th President of the United States?"
         android:textSize="40sp" />
 
     <TextView
@@ -23,7 +30,6 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Barack Obama"
         android:textSize="40sp"
         android:visibility="invisible" />
 
@@ -34,5 +40,15 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:src="@drawable/add_button" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="357dp"
+        android:src="@drawable/next_button" />
 
 </RelativeLayout>
