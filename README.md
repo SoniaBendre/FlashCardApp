@@ -6,7 +6,7 @@
 A simple flashcard app created for LAB 3 of CodePath MAD course.
 
 ### App Walk-though
-<img src="https://github.com/SoniaBendre/FlashCardApp/blob/master/Lab3.gif" width=200><br>
+<img src="https://github.com/SoniaBendre/FlashCardApp/blob/master/Lab3%20(1).gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
